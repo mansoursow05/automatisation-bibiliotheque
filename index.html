@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>bibliotheque.DIT</title>
+  <link rel="icon" type="image/jpeg" href="image1 (1).jpg">
+</head>
+<body>
+  <header>
+    <div class="principale">
+      <div class="logo">
+        <img src="./image1 (1).jpg" alt="" width="300px">
+        <style>.logo {
+          position: absolute;
+          top: 50px; /* Ajustez la valeur selon votre préférence */
+          left: 10px;
+          width: 100px;
+          height: auto;
+        }
+        </style>
+        
+
+        <nav class="navbar">  
+          <label for="btn">
+            <svg viewBox =" 0 0 100 80" width="40" height="40" class="rotation" >
+              <rect width="100" height="15"></rect>
+              <rect y=35 width="100" height="15"></rect>
+              <rect y=75 width="100" height="15"></rect>
+            </svg>
+          </label>
+          <input type="checkbox" id="btn">
+
+        <ul id ="menu"class ="navmenu">
+          <li class="active">
+            <a href="#">Accueil</a>
+          </li>
+          <li class="active1">
+            <a href="index-propos.html">A propos</a>
+          </li>
+          <li class="deroulant">
+            <a href="#" class="current" class="active">Bibliotheque&ensp;</a>
+            <ul class="sous">
+              <li><a href="index-emprunte.html">Emprunter</a></li>
+              <li><a href="#">Commentaires</a></li>
+              <li><a href="#">Statistiques</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="index-login'''.html#" class="active">Login</a>
+          </li>
+          <li>
+            <a href="index-signe '''.html" class="active">Sign Up</a>
+          </li>
+        </ul>
+        
+        </a>
+      </nav>
+    </div>
+    <div class="carte">
+      <div class="contenu">
+        <h1>Bienvenue!</h1>
+        <p>Nous sommes ravis de vous accueillir dans notre espace dédié à l'apprentissage et à la recherche. Que vous soyez à la recherche de ressources pour approfondir vos connaissances, préparer vos cours ou simplement vous plonger dans un bon livre, notre bibliothèque est là pour répondre à vos besoins.</p>
+      </div>
+      <div class="colorlibcopy-agile">
+        <p>© DAKAR INTITUTE OF TECHNOLOGY ./immeuble46,cite keur gorgui ,Dakar Tel:+221773089292 E-mail:info@dit.sn <a href="https://colorlib.com/" target="_blank">DIT</a></p>
+      </div>
+    </div>
+  </header>
+</body>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('btn');
+    const menu = document.getElementById('menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  });
+</script>
+
+</html>
