@@ -1,0 +1,86 @@
+/*
+1- Images in this code should be changed by your images, change the path in src="/img/s3.png".
+2- To edit the height of the carousel and images, you can aply the height attribute to the carousel 
+<div id="carouselId" class="carousel slide" data-bs-ride="carousel" style="height: 300px;">
+or to the image: 
+<img src="/img/s1.png" class="w-100 d-block" alt="First slide" height="400px;">
+*/
+.carousel-item {
+	width: 200px; /* Remplacez la valeur par la taille souhaitée */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	margin: 0 auto;
+  }
+  .carousel-item {
+	width: 200px; /* Remplacez la valeur par la taille souhaitée */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	max-width: 50%;
+	max-height: 50%;
+	background-color: black;
+	margin: 0 auto;
+  }
+  
+  .row justify-content-center {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	margin-top: 10px;
+	font-family: "Arial", sans-serif;
+  	font-size: 20px;
+  	font-weight: bold;
+  	text-decoration: underline;
+  }
+  body {
+	background-color: black;
+	color: white; /* Si vous souhaitez également changer la couleur du texte en blanc */
+  }
+  
+  .colorlibcopy-agile {
+	margin: 2em 0 1em;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+  }
+	
+  
+  .colorlibcopy-agile p {
+	font-size: .9em;
+	color: #29ae17;
+	line-height: 1.8em;
+	letter-spacing: 1px;
+	font-weight: 100;
+	
+  }
+  
+  .row justify-content-center{
+	bottom: 0; /* Alignement en bas */
+	margin-top: 20px; /* Marge supérieure pour s'éloigner des images */
+  }
+  
+  .row justify-content-center {
+	width: 10px; /* Largeur des indicateurs */
+	height: 10px; /* Hauteur des indicateurs */
+	border-radius: 50%; /* Forme des indicateurs arrondis */
+	margin: 0 8px; /* Marge horizontale entre les indicateurs */
+  }
+  
+  .row justify-content-center [data-bs-target] {
+	background-color: #fff; /* Couleur de fond des indicateurs non actifs */
+  }
+  
+  .row justify-content-center{
+	background-color: #000; /* Couleur de fond de l'indicateur actif */
+  }
+  
+  
+  
